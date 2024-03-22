@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:project/pages/addproduct.dart';
 import 'package:project/pages/editprofile.dart';
 import 'package:project/pages/leavingpage.dart';
+import 'package:project/pages/select_produt_page.dart';
+import 'package:project/pages/shared_preference.dart';
+import 'package:project/pages/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +24,10 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         // home: leavingpage());
-        home: const editprofile());
+        // home: const editprofile());
+        // home: sharedpreference());
+        // home: splashScreen());
+        // home: selectProductpage());
+        home: addProductScreen());
   }
 }
