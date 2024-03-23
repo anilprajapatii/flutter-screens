@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:project/pages/customer_product_page.dart';
+import 'package:project/pages/otp.dart';
 import 'package:project/pages/retailer_product_page.dart';
 import 'package:project/pages/editprofile.dart';
 import 'package:project/pages/leavingpage.dart';
 import 'package:project/pages/drawer.dart';
-import 'package:project/pages/shared_preference.dart';
-import 'package:project/pages/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +31,7 @@ class MyApp extends StatelessWidget {
         // home: addProductScreen());
         // home: drawerScreen());
         // home: ProductDetail());
-        home: customerProductScreen());
+        // home: customerProductScreen());
+        home: otpScreen());
   }
 }

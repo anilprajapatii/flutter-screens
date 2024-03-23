@@ -111,7 +111,7 @@ class _drawerScreenState extends State<drawerScreen> {
                     title: const Text(
                         style: TextStyle(
                             color: Colors.black, fontWeight: FontWeight.bold),
-                        'Enquery History'),
+                        'Enquiry History'),
                     leading: const Icon(
                       Icons.history,
                       color: Colors.black,
