@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project/pages/addproduct.dart';
+import 'package:project/pages/customer_product_page.dart';
+import 'package:project/pages/retailer_product_page.dart';
 import 'package:project/pages/editprofile.dart';
 import 'package:project/pages/leavingpage.dart';
 import 'package:project/pages/drawer.dart';
@@ -27,8 +28,10 @@ class MyApp extends StatelessWidget {
         // home: const editprofile());
         // home: sharedpreference());
         // home: splashScreen());
-        // home: selectProductpage());
+        // home: retailerProductPage());
         // home: addProductScreen());
-        home: drawerScreen());
+        // home: drawerScreen());
+        // home: ProductDetail());
+        home: customerProductScreen());
   }
 }

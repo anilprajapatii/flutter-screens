@@ -3,14 +3,14 @@ import 'dart:ffi';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class addProductScreen extends StatefulWidget {
-  const addProductScreen({super.key});
+class retailerProductPage extends StatefulWidget {
+  const retailerProductPage({super.key});
 
   @override
-  State<addProductScreen> createState() => _addProductScreenState();
+  State<retailerProductPage> createState() => _retailerProductPageState();
 }
 
-class _addProductScreenState extends State<addProductScreen> {
+class _retailerProductPageState extends State<retailerProductPage> {
   int countOfProduct = 0;
   @override
   Widget build(BuildContext context) {
