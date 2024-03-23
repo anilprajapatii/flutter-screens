@@ -100,7 +100,7 @@ class _addProductScreenState extends State<addProductScreen> {
                             ],
                           ),
                           Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            mainAxisAlignment: MainAxisAlignment.start,
                             children: [
                               Text(
                                 "Count",
@@ -114,6 +114,9 @@ class _addProductScreenState extends State<addProductScreen> {
                               ),
                               Row(
                                 children: [
+                                  SizedBox(
+                                    width: 20,
+                                  ),
                                   Container(
                                     width: 40,
                                     height: 40,
@@ -137,8 +140,8 @@ class _addProductScreenState extends State<addProductScreen> {
                                     ),
                                   ),
                                   Container(
-                                    width: 40,
-                                    padding: EdgeInsets.only(right: 15),
+                                    width: 170,
+                                    padding: EdgeInsets.only(right: 75),
                                     child: Center(
                                       child: TextField(
                                         textAlign: TextAlign.end,

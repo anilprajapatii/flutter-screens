@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:project/pages/addproduct.dart';
 import 'package:project/pages/editprofile.dart';
 import 'package:project/pages/leavingpage.dart';
-import 'package:project/pages/select_produt_page.dart';
+import 'package:project/pages/drawer.dart';
 import 'package:project/pages/shared_preference.dart';
 import 'package:project/pages/splashScreen.dart';
 
@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         // home: sharedpreference());
         // home: splashScreen());
         // home: selectProductpage());
-        home: addProductScreen());
+        // home: addProductScreen());
+        home: drawerScreen());
   }
 }
